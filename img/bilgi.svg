@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="56" viewBox="0 0 206 56">
+  <g id="Buton" transform="translate(-590 -1144)">
+    <text id="DAHA_FAZLA_BİLGİ" data-name="DAHA FAZLA BİLGİ" transform="translate(613 1178)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">DAHA FAZLA BİLGİ</tspan></text>
+    <path id="Path_6990" data-name="Path 6990" d="M19.013,11H-16v2H19.013v3L24,12,19.013,8Z" transform="translate(772 1160)" fill="#fff"/>
+    <path id="Path_7000" data-name="Path 7000" d="M183,42.521V46a7,7,0,0,1-7,7H10a7,7,0,0,1-7-7V10a7,7,0,0,1,7-7H176a7,7,0,0,1,7,7v3.535a1.5,1.5,0,0,0,3,0V10A10,10,0,0,0,176,0H10A10,10,0,0,0,0,10V46A10,10,0,0,0,10,56H176a10,10,0,0,0,10-10V42.521a1.5,1.5,0,1,0-3,0" transform="translate(590 1144)" fill="#fff"/>
+  </g>
+</svg>

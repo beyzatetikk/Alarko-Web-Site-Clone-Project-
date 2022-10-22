@@ -1,0 +1,340 @@
+.body {
+    background-color: #f5f6f8;
+}
+
+
+
+
+.container {
+    display: flex;
+}
+
+.btn {
+
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    right: 200px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+
+}
+
+.btn {
+
+    color: white;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #ff0000;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.me-2 {
+    color: red;
+}
+
+.banner-img {
+    object-fit: cover;
+    height: 440px;
+    width: 100%;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+
+}
+
+.umut {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bilgibtn {
+    color: black;
+}
+
+.portfolyo-box {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+.portfolyo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 20px;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    border: 0.5px solid rgba(0, 0, 0, 0.125);
+    border-radius: 40px 40px 40px 40px;
+
+
+
+}
+
+.card-img-top1 {
+    border-radius: 40px 40px 40px 40px;
+
+}
+
+
+.card-deck {
+    width: 80%;
+    margin-left: 10%;
+
+
+
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner {
+        height: 200px;
+    }
+
+    .umut {
+        font-size: 1.5rem;
+    }
+}
+
+.card-item {
+    border: 0;
+    width: 25%;
+
+    max-width: 700px;
+    margin: 100px auto;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.card-item:hover .card-img-top1 {
+    transform: scaleY(0);
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    font-family: 'Open Sans';
+    transform: translateY(-50%);
+    transition: all 0.3s;
+
+
+}
+
+.text::before,
+.text::after {
+    display: block;
+    margin: 50px 0;
+    height: 10px;
+    opacity: 0.70;
+    content: '';
+    transition: all 0.2s;
+
+
+}
+
+.inner {
+    padding: 0 60px;
+    max-height: 0;
+    overflow: hidden;
+    background: white;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+.card-item:hover .inner {
+    padding: 60px;
+    max-height: 300px;
+    transform: scale(1);
+
+}
+
+.card-img-top {
+    border-radius: 30px;
+}
+
+.card-group {
+    margin-top: -5%;
+    width: 80%;
+    margin-left: 7%;
+}
+
+.buton {
+    margin-left: 660px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.buton2 {
+    margin-top: 50px;
+    margin-left: 660px;
+    margin-bottom: 30px;
+
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.right-pane {
+    color: #9CA9B7;
+    margin-left: 720px;
+
+}
+
+.social-media-icons {
+    cursor: pointer;
+    margin-left: 450px;
+
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: #DD2A7B;
+}
+
+.fa-twitter {
+    color: #0084B4;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.animated-button{
+    display: flex;
+    cursor: pointer;
+    width: min-content;
+    transition: 1s;
+}
+.animated-button .buton{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+
+}
+
+    
+.animated-button .arrow{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+    margin-top: -40px;
+    color: red;
+
+}
+.animated-button:hover .arrow{
+    animation: arrow 1s ease-in;
+}
+
+@keyframes arrow{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.animated-button2{
+    margin-top: 100px;
+    display: flex;
+    cursor: pointer;
+    width: min-content;
+    transition: 1s;
+
+}
+.animated-button2 .buton{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+
+}
+.animated-button2 .arrow{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+    margin-top: -40px;
+    color: red;
+
+}
+.animated-button2:hover .arrow{
+    animation: arrow 1s ease-in;
+}
+
+

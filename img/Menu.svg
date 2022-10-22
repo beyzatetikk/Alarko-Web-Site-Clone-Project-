@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="24" viewBox="0 0 56 24">
+  <g id="Menu" transform="translate(-1235 -86)">
+    <text id="EN" transform="translate(1257 104)" fill="#d12027" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-21.156" y="0">EN</tspan></text>
+    <g id="public_black_24dp" transform="translate(1267 86)">
+      <path id="Path_6993" data-name="Path 6993" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_6994" data-name="Path 6994" d="M10,2a8,8,0,1,0,8,8A8,8,0,0,0,10,2ZM3.6,10a6.422,6.422,0,0,1,.168-1.424L7.592,12.4v.8a1.6,1.6,0,0,0,1.6,1.6v1.544A6.409,6.409,0,0,1,3.6,10Zm11.112,4.32a1.594,1.594,0,0,0-1.52-1.12h-.8V10.8a.8.8,0,0,0-.8-.8h-4.8V8.4h1.6a.8.8,0,0,0,.8-.8V6h1.6a1.6,1.6,0,0,0,1.6-1.6V4.072a6.382,6.382,0,0,1,2.32,10.248Z" transform="translate(2 2)" fill="#d12027"/>
+    </g>
+  </g>
+</svg>
